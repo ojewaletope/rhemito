@@ -1,0 +1,43 @@
+.form-control {
+  width: 300px;
+  margin-bottom: 10px;
+}
+.input-group-addon {
+  width: 80px;
+}
+.fa .fa-caret-down {
+  color: #fff;
+}
+.airtime__details {
+  padding: 15px;
+}
+.form {
+    padding: 0;
+  }
+
+.output__result {
+  background: #fff;
+  margin-top: 30px;
+  width: 100%;
+}
+.output__result--container {
+  padding: 10px 10px;
+}
+.airtime__details--text {
+  margin: 20px 0 5px 0;
+  font-size: 13px;
+}
+.airtime__total, .recipient__total {
+  display: flex;
+  justify-content: space-between;
+  /*padding: 20px 10px 0 10px ;*/
+}
+.airtime__details--wrapper {
+  background-image: linear-gradient(to top, #fff1eb, #ace0f9);
+}
+@media screen and (min-width: 768px)  {
+  .airtime__details {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}

@@ -1,0 +1,41 @@
+.airtime__form {
+  margin-top: 40px;
+}
+.airtime__form--destination {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 15px;
+}
+.airtime__select {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+.ant-select-selection--single {
+  height: 60px!important;
+  margin-bottom: 15px !important;
+  border-radius: 5px !important;
+}
+.ant-select-selection__rendered {
+  padding: 15px !important;
+  font-size: 18px !important;
+}
+.ant-select-dropdown-menu-item {
+  font-size: 18px !important;
+}
+.airtime__form--text {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  height: 75px;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) and (max-width: 1224px) {
+  .airtime__select, .airtime__btn {
+    width: 100%;
+  }
+}

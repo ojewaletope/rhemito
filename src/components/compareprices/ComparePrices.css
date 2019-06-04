@@ -1,0 +1,36 @@
+.modal__container {
+  width: 100%;
+}
+.modal__list {
+  padding: 0;
+  margin: 0;
+}
+.modal__list--item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.modal__list--item-img {
+  width: 26px;
+}
+
+
+@media screen and (min-width: 1224px) {
+  /*.rate__card {*/
+    /*width: 400px;*/
+  /*}*/
+  .rate__card, .list__card {
+    width: 400px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px;
+    background: rgba(208, 173, 220, 0.28);
+  }
+  .rate__header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

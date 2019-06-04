@@ -1,0 +1,83 @@
+/*.beneficiary__container {*/
+  /*margin: 0 30px;*/
+/*}*/
+.main__wrapper {
+  /*margin: 50px 30px;*/
+}
+.beneficiary__details {
+  background-image: linear-gradient(to top, #fff1eb, #ace0f9);
+  padding: 0 15px;
+}
+.beneficiary__details--form {
+  margin: 50px 30px 0 30px;
+}
+.beneficiary__details--input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  height: 60px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.beneficiary__dob--container {
+  margin-bottom: 20px;
+  display: flex
+}
+.beneficiary__details--input-1{
+  width: 30%;
+  height: 60px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  /*margin-right: 10px;*/
+}
+.beneficiary__details--input-2 {
+  width: 30%;
+  margin-left: 10px;
+  height: 60px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+.beneficiary__phone--container {
+  margin-bottom: 20px;
+  display: flex
+}
+.beneficiary__phone--number {
+  width: 100%;
+  border: 0;
+  height: 60px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px
+}
+.beneficiary__input--label {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #797B7C;
+}
+.beneficiary__details--btn {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #00CB9D;
+  padding: 10px;
+  border-radius: 5px;
+  /*margin: 0 0 50px 0;*/
+}
+@media screen and (min-width: 768px) and (max-width: 1224px) {
+  .beneficiary__details--form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+}
+
+@media screen and (min-width: 1224px) {
+  .beneficiary__details--form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+}

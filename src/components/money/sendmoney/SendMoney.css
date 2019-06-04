@@ -1,0 +1,81 @@
+.sendmoney {
+  padding: 0 15px;
+  background-image: linear-gradient(to top, #fff1eb, #ace0f9)
+}
+.sendmoney__form--container {
+  margin: 50px 0 25px 0;
+  padding: 20px;
+}
+.sendmoney__header {
+  text-align: center;
+  font-size: 17px;
+  color: #9b9b9b;
+}
+.sendmoney__group {
+  display: flex;
+  height: 62px;
+  border-radius: 5px;
+  width: 300px;
+}
+.sendmoney__group--value {
+  flex-basis: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+.sendmoney__output--label {
+  color: #9b9b9b;
+}
+.sendmoney__output--value {
+  font-size: 14px;
+}
+.sendmoney__select {
+  flex-basis: 100px;
+  border: none;
+  background: #def1fb;
+  padding: 20px;
+}
+.sendmoney__btn {
+  width: 300px;
+  border: none;
+  color: #fff;
+  background-color: #00CB9D;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 50px 0;
+}
+.sendmoney__text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1224px) {
+  .sendmoney__form--container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .form-control {
+    width: 250px;
+  }
+  .sendmoney__btn {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1224px) {
+  .sendmoney__form--container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .form-control {
+    width: 70%;
+  }
+  .sendmoney__btn {
+    width: 100%;
+  }
+  .sendmoney__group {
+    width: 70%;
+  }
+  .sendmoney__group--value {
+    flex-basis: 100%;
+    background-color: #fff;
+    padding: 10px;
+  }
+}

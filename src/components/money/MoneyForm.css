@@ -1,0 +1,125 @@
+.form__line {
+  border-left: 1.8px solid rgba(144, 164, 183, 0.22);
+  height: 120px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.form__line--span {
+  margin: 15px;
+}
+.form__line--text-1 {
+  margin-top: 35px;
+  margin-left: 16px;
+  color: #4a4a4a;
+  font-size: 12px;
+}
+.form__line--text-2 {
+  margin-top: 25px;
+  margin-left: 13px;
+  color: #4a4a4a;
+  font-size: 12px;
+}
+.inline__text {
+  border-bottom: 1px solid #222;
+}
+.form__btn {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #00CB9D;
+  padding: 10px;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 0;
+}
+.form-control {
+  padding: 30px;
+  border: none;
+  font-size: 18px;
+}
+.form__dot {
+  width: 8px;
+  background-color: rgba(144, 164, 183, 0.9);
+  height: 8px;
+  border-radius: 50px;
+  position: absolute;
+}
+.form__dot--1 {
+  top: 40px;
+  left: -6px;
+}
+.form__dot--2 {
+  top: 80px;
+  left: -6px;
+}
+.input-group-addon {
+  background-color: rgb(225, 242, 250);
+  border: none;
+  /*width: 109px;*/
+}
+.form__text {
+  font-size: 13px;
+  color: #4a4a4a;
+  padding: 10px;
+  margin: 10px 0 30px 0;
+}
+.add__on-text {
+  padding: 5px;
+  font-weight: bold;
+}
+.form__btn--primary {
+  display: none;
+}
+.output__div {
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  height: 60px;
+  justify-content: space-between;
+  width: 340px;
+}
+.output__select {
+  /*width: 109px;*/
+  background-color: rgb(225, 242, 250);
+  border: none;
+  padding: 15px;
+}
+.output {
+  padding: 15px;
+  flex-basis: 128%;
+}
+.output__text {
+  font-size: 11px;
+  color: #9b9b9b;
+}
+@media screen and (min-width: 768px) and (max-width: 1224px) {
+  .form__text {
+    font-size: 15px;
+    padding: 0;
+    margin: 22px 0;
+  }
+
+  .form__text {
+    margin: 10px 15px;
+    font-size: 13px;
+  }
+  /*.form {*/
+    /*padding: 0;*/
+    /*height: auto;*/
+  /*}*/
+  .output__div {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1224px) {
+  .form {
+    padding: 0;
+  }
+  .output__div {
+    margin-right: 0;
+    width: 100%;
+  }
+}

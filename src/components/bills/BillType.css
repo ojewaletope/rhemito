@@ -1,0 +1,12 @@
+.ant-radio-inner:after {
+  background-color: #00CB9D !important;
+}
+.ant-radio-checked:after {
+  border: 1px solid #00CB9D !important;
+}
+.ant-radio-inner {
+  border: 1px solid #00CB9D !important;
+}
+.billtype__container {
+  margin-left: 30px;
+}

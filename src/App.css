@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/CircularStd-Book.eot");
+  src: url("/fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/CircularStd-Book.woff2") format("woff2"),
+    url("/fonts/CircularStd-Book.woff") format("woff"),
+    url("/fonts/CircularStd-Book.ttf") format("truetype"),
+    url("/fonts/CircularStd-Book.svg#CircularStd-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Circular", sans-serif;
+}
+input:focus,select:focus, button:focus  {
+  outline: none;
+}
+body {
+  /*background-image: linear-gradient(to top, #fff1eb, #ace0f9);*/
+}
+.main__wrapper {
+  background-color: #fff;
+}
+.ant-tabs-tab-prev.ant-tabs-tab-arrow-show, .ant-tabs-tab-next.ant-tabs-tab-arrow-show {
+  display: none;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  margin: 0 !important;
+}
+.ant-input {
+  height: 60px !important;
+  font-size: 18px !important;
+}
+.ant-input-group-addon {
+  background-color: #e1f2fa !important;
+}
+.ant-select-selection-selected-value {
+  padding-right: 0 !important;
+  max-width:100% !important;
+}
+.input-group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1224px){
+  .input-group {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1224px){
+  .react-tabs {
+    width: 520px;
+  }
+}
+
+
